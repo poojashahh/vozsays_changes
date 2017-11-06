@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:id="@+id/localissues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/act_local_logo"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/act_local_image_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/act_local_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_1sdp"
+                android:paddingRight="@dimen/_1sdp"
+                android:src="@drawable/act_local_issues_first_image" />
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_1sdp"
+                android:paddingRight="@dimen/_1sdp"
+                android:src="@drawable/act_local_issues_second_image" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/act_local_tagline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_below="@+id/act_local_image_ll"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/local_issue_tagline"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_24sdp"
+
+
+            />
+
+        <LinearLayout
+            android:id="@+id/act_localissues_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/act_local_tagline"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/ripple_effect_colorwhite">
+
+            <EditText
+
+                android:id="@+id/act_localissues_et"
+                android:layout_width="match_parent"
+
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/white_round_rect_pink_line"
+                android:digits="1234567890"
+                android:gravity="center"
+                android:hint="@string/local_issue_hint"
+                android:imeOptions="actionSend"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:minLines="5"
+                android:onClick="onZipCodeClick"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/text_grey"
+                android:textSize="@dimen/_20sdp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_below="@+id/act_localissues_ll"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/pink_round_rect"
+            android:id="@+id/act_localissues_zip_ll"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/act_local_issue_rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/ripple_effect_round_rect_color_accent"
+                android:gravity="center"
+                android:onClick="onReadyClick"
+                android:text="@string/local_issue_btn_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_26sdp"
+
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

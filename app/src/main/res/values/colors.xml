@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EA0044</color>
+    <color name="colorPrimaryDark">#bf0038</color>
+    <color name="colorAccent">#EA0044</color>
+    <color name="colorAccentlight">#FF0049</color>
+    <color name="light_transparent_black">#D8000000</color>
+    <color name="transparent">#44FFFFFF</color>
+    <color name="transparent_pink">#80EA0044</color>
+    <color name="text_grey">#A49EA0</color>
+    <color name="offwhite">#E5E5E5</color>
+    <color name="verylightColorPrimary">#F2327D</color>
+    <color name="lightColorPrimary">#EF2060</color>
+    <color name="DarkColorPrimary">#EB144C</color>
+    <color name="coffee">#B53053</color>
+    <color name="one_dark">#5952FE</color>
+    <color name="one_midddle">#496CFE</color>
+    <color name="two_middle">#7700E0</color>
+    <color name="third_middle">#31C184</color>
+    <color name="four_middle">#E9594E</color>
+    <color name="five_middle">#C1DD46</color>
+    <color name="two_light">#8B13F8</color>
+    <color name="two_dark">#6300C9</color>
+    <color name="three_dark">#36C673</color>
+    <color name="three_light">#2CBC95</color>
+    <color name="four_dark">#E14A57</color>
+    <color name="four_light">#F06C44</color>
+    <color name="five_dark">#DADF41</color>
+    <color name="five_light">#A7DD4D</color>
+    <color name="one_light">#3C86FE</color>
+
+</resources>

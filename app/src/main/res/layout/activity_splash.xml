@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vozsays.activity.SplashActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/act_splash_icon_iv"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/act_splash_icon"
+                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_below="@+id/act_splash_icon_iv"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="@string/splash_tagline"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_22sdp"
+                android:textAlignment="center"
+                />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+</RelativeLayout>
+    </layout>
+

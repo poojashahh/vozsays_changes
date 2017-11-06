@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Vozsays</string>
+    <string name="splash_text">  Let your voice be heard!</string>
+    <string name="facebook_app_id">1918405821815634</string>
+    <string name="str_questions">Questions</string>
+    <string name="str_channels">Channels</string>
+    <string name="str_account">Account</string>
+    <string name="connection_fail_message">Ooopssss!!!...Network connection failed!!!!</string>
+    <string name="eDeviceType">Android</string>
+    <string name="chooseInterestAlertMsg">Please Select Something!!!</string>
+    <string name="choose_your_interests">Choose your interests!</string>
+    <string name="select_interests">Select interests</string>
+    <string name="login_fail_alert">Ooops!!!...Invalid Access. Please relogin</string>
+    <string name="insertion_fail">Please Enter some Characters</string>
+    <string name="splash_tagline">iLet your voice be heard!!</string>
+    <string name="getstarted_tagline">Let your voice be heard</string>
+    <string name="getstarted_btntext">Get Started</string>
+    <string name="join_community_btn_text">Join With Facebook</string>
+    <string name="dialog_before_invite_invite">Invite Your friends to join Voz</string>
+    <string name="dialog_before_invite_awesome">Hey , you\'re awesome!!</string>
+    <string name="dialog_yes">Yes!</string>
+    <string name="dialog_close">X</string>
+    <string name="dialog_broadcast_tagline">Shout this out!!</string>
+    <string name="dialog_invite">Invite</string>
+    <string name="dialog_invite_name">Collage Path</string>
+    <string name="dialog_invite_tagline">Invite Friends to</string>
+    <string name="join_community_tagline">Join the Community</string>
+    <string name="join_community_tagline2">Let your voice be heard!</string>
+    <string name="local_issue_tagline">Get Involved with Local issues!</string>
+    <string name="local_issue_hint">Enter Zip code!</string>
+    <string name="local_issue_btn_text">I\'m Ready</string>
+    <string name="frag_account_logout">Logout</string>
+    <string name="frag_binary_no">No</string>
+    <string name="frag_binary_yes">Yes</string>
+    <string name="poll_complete">Poll Complete</string>
+    <string name="current_polls">CURRENT POLLS IN YOUR AREA</string>
+    <string name="no_poll_found">No more questions found.Please wait for new questions!</string>
+
+</resources>

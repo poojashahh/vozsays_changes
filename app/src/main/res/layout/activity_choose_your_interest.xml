@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/act_join_logo_iv"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/choose_your_interests"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_25sdp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/rl_interest_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_interest_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"  >
+                    <ProgressBar
+                        android:id="@+id/pb_interest_1"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+
+                    <com.vozsays.utility.CircleImageView
+                        android:id="@+id/iv_interest_1"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/interest_selecter"
+
+                        app:border_color="#44FFFFFF"
+                        app:border_width="4dp"
+                        app:transparent_layer="false" />
+
+                    <TextView
+                        android:id="@+id/tv_interest_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_interest_1"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_interest_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_55sdp"
+                    android:visibility="gone"
+
+                    >
+
+                    <ProgressBar
+                        android:id="@+id/pb_interest_2"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+
+                    <com.vozsays.utility.CircleImageView
+                        android:id="@+id/iv_interest_2"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/interest_selecter"
+                        app:border_color="#44FFFFFF"
+                        app:border_width="4dp"
+                        app:transparent_layer="false" />
+
+
+                    <TextView
+                        android:id="@+id/tv_interest_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_interest_2"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_interest_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_55sdp"
+                    android:visibility="gone"
+
+
+                    >
+
+                    <ProgressBar
+                        android:id="@+id/pb_interest_3"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+
+                    <com.vozsays.utility.CircleImageView
+                        android:id="@+id/iv_interest_3"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/interest_selecter"
+
+                        app:border_color="#44FFFFFF"
+                        app:border_width="4dp"
+                        app:transparent_layer="false" />
+
+                    <TextView
+                        android:id="@+id/tv_interest_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_interest_3"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_interest_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"
+
+                    >
+
+                    <ProgressBar
+                        android:id="@+id/pb_interest_6"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+
+                    <com.vozsays.utility.CircleImageView
+                        android:id="@+id/iv_interest_6"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/interest_selecter"
+
+                        app:border_color="#44FFFFFF"
+                        app:border_width="4dp" />
+
+                    <TextView
+                        android:id="@+id/tv_interest_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_interest_6"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_interest_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:visibility="gone">
+
+                    <ProgressBar
+                        android:id="@+id/pb_interest_4"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+
+                    <com.vozsays.utility.CircleImageView
+                        android:id="@+id/iv_interest_4"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:background="@drawable/interest_selecter"
+
+                        app:border_color="#44FFFFFF"
+                        app:border_width="4dp" />
+
+                    <TextView
+                        android:id="@+id/tv_interest_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_interest_4"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_interest_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/_50sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:visibility="gone">
+
+                    <ProgressBar
+                        android:id="@+id/pb_interest_5"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+
+                    <com.vozsays.utility.CircleImageView
+                        android:id="@+id/iv_interest_5"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:background="@drawable/interest_selecter"
+                        app:border_color="#44FFFFFF"
+                        app:border_width="4dp" />
+
+                    <TextView
+                        android:id="@+id/tv_interest_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_interest_5"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_select_interest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:gravity="center"
+                android:background="@drawable/ripple_round_color_white"
+                android:paddingBottom="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:text="@string/select_interests"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/_24sdp" />
+        </LinearLayout>
+</layout>

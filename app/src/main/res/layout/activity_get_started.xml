@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/activity_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.vozsays.activity.GetStartedActivity">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/act_getstarted_bg_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_400sdp"
+                    android:background="@drawable/act_getstarted_main_bg"
+                    android:orientation="vertical"
+                    android:scaleType="centerCrop">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_170sdp">
+                        <ImageView
+                            android:id="@+id/act_get_started_logo"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:src="@drawable/act_get_started_logo" />
+
+                        <TextView
+                            android:layout_width="@dimen/_120sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_below="@+id/act_get_started_logo"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:text="@string/getstarted_tagline"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_18sdp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_180sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/act_get_started_curved_bg" />
+
+                <LinearLayout
+                    android:id="@+id/act_get_started_btn_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/_30sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:background="@drawable/white_rectangle"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_gravity="center"
+                        android:text="@string/getstarted_btntext"
+                        android:background="@drawable/ripple_round_color_white"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingRight="@dimen/_5sdp"
+                        android:textSize="@dimen/_20sdp"
+                        android:textColor="@color/colorAccent"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+</layout>

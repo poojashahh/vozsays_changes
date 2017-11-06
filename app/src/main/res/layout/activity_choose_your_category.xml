@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout tools:context="com.vozsays.activity.ChooseYourCategoryActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:id="@+id/activity_choose_your_category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/choose_category_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/toolbar_logo"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/toolbar_logo" />
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/linearlayout"
+        android:text="@string/current_polls"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/choose_category_toolbar"
+        ></TextView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_below="@+id/linearlayout"
+        android:id="@+id/categories_recylerview">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
+</layout>

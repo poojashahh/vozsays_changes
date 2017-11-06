@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center"
+        android:id="@+id/layout_first_option_btn"
+        android:background="@drawable/white_round_rect_pink_line"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center"
+        android:id="@+id/layout_second_option_btn"
+        android:background="@drawable/white_round_rect_pink_line"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center"
+        android:id="@+id/layout_third_option_btn"
+        android:background="@drawable/white_round_rect_pink_line"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center"
+        android:id="@+id/layout_fourth_option_btn"
+        android:background="@drawable/white_round_rect_pink_line"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
+</layout>
